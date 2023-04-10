@@ -1,6 +1,7 @@
 function startVideoFromCamera(){
 
-    const specs = {video:true}
+    const width = 400
+    const heigth = 400
 
     navigator.mediaDevices.getUserMedia({video:true}).then(stream=>{
 
