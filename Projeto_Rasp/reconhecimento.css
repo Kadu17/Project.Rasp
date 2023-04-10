@@ -44,10 +44,14 @@
 .tela{
     width: 400px;
     height: 400px;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0);
     margin-left: 1000px;
     margin-top: -105px;
     border-radius: 30px;
+}
+
+#video{
+    border-radius: 40px;
 }
 
 
